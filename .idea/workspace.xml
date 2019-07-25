@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93195a71-0eaa-48af-b2f5-8ddb80ce1e76" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/images_controller.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/image.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/images/_form.html.erb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/images/_image.json.jbuilder" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/images/edit.html.erb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/images/index.html.erb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/images/index.json.jbuilder" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/images/new.html.erb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/images/show.html.erb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/images/show.json.jbuilder" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/controllers/file_uploads_controller_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/controllers/file_uploads_controller_spec.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/spec_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/spec_helper.rb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -39,15 +29,19 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="45" column="24" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
+            <state relative-caret-position="149">
+              <caret line="65" column="3" selection-start-line="65" selection-start-column="3" selection-end-line="65" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="118">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -77,10 +71,22 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/controllers/buckets_controller_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-270" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="-30">
+                <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+              </first_editor>
+              <second_editor />
+            </state>
           </provider>
         </entry>
       </file>
@@ -111,11 +117,12 @@
         <option value="$PROJECT_DIR$/app/controllers/file_uploads_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/buckets/show.html.erb" />
         <option value="$PROJECT_DIR$/app/models/bucket.rb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/spec/spec_helper.rb" />
         <option value="$PROJECT_DIR$/app/views/buckets/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/spec/controllers/file_uploads_controller_spec.rb" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/spec/spec_helper.rb" />
       </list>
     </option>
   </component>
@@ -150,13 +157,13 @@
             <path>
               <item name="image_uploader" type="b2602c69:ProjectViewProjectNode" />
               <item name="image_uploader" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="spec" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="image_uploader" type="b2602c69:ProjectViewProjectNode" />
               <item name="image_uploader" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="spec" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -233,17 +240,17 @@
       <workItem from="1564027164776" duration="665000" />
       <workItem from="1564027876315" duration="1264000" />
       <workItem from="1564029179372" duration="903000" />
-      <workItem from="1564056578804" duration="1047000" />
+      <workItem from="1564056578804" duration="1326000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4184000" />
+    <option name="totallyTimeSpent" value="4463000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26735833" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26735833" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -255,7 +262,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32736155" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32736155" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -352,16 +359,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="45" column="24" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.6.3/gems/database_cleaner-1.7.0/lib/database_cleaner/configuration.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="675">
@@ -386,6 +383,30 @@
     <entry file="file://$PROJECT_DIR$/spec/controllers/buckets_controller_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-270" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-30">
+            <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="65" column="3" selection-start-line="65" selection-start-column="3" selection-end-line="65" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
       </provider>
     </entry>
   </component>
