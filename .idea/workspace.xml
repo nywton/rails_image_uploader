@@ -2,25 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93195a71-0eaa-48af-b2f5-8ddb80ce1e76" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/image_uploader.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/image_uploader.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/bootstrap/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/bootstrap/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/bootstrap/popper.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/now-ui-theme/now-ui-kit.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/now-ui-theme/now-ui-kit.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/javascripts/now-ui-theme/now-ui-kit.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/bootstrap/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/bootstrap/bootstrap.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/now-ui-theme/now-ui-kit.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/now-ui-theme/now-ui-kit.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/now-ui-theme/now-ui-kit.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/scaffolds.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/scaffolds.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/buckets_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/buckets_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/bucket.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/bucket.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/buckets/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/buckets/_form.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/buckets/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/buckets/show.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -41,17 +25,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/buckets_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
+            <state relative-caret-position="-123">
               <caret line="26" column="39" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="7" column="60" lean-forward="true" selection-start-line="7" selection-start-column="60" selection-end-line="7" selection-end-column="60" />
+              <caret line="7" column="60" selection-start-line="7" selection-start-column="60" selection-end-line="7" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/buckets/show.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="178">
+              <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/migrate/20190725033829_create_active_storage_tables.active_storage.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="28" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -80,10 +82,10 @@
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/buckets/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/models/bucket.rb" />
-        <option value="$PROJECT_DIR$/app/views/buckets/show.html.erb" />
         <option value="$PROJECT_DIR$/app/views/file_uploads/new.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/buckets_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/file_uploads_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/buckets/show.html.erb" />
       </list>
     </option>
   </component>
@@ -119,6 +121,17 @@
               <item name="image_uploader" type="b2602c69:ProjectViewProjectNode" />
               <item name="image_uploader" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="image_uploader" type="b2602c69:ProjectViewProjectNode" />
+              <item name="image_uploader" type="462c0819:PsiDirectoryNode" />
+              <item name="db" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="image_uploader" type="b2602c69:ProjectViewProjectNode" />
+              <item name="image_uploader" type="462c0819:PsiDirectoryNode" />
+              <item name="db" type="462c0819:PsiDirectoryNode" />
+              <item name="migrate" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -194,12 +207,12 @@
       <workItem from="1564026728989" duration="305000" />
       <workItem from="1564027164776" duration="665000" />
       <workItem from="1564027876315" duration="1264000" />
-      <workItem from="1564029179372" duration="227000" />
+      <workItem from="1564029179372" duration="820000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2501000" />
+    <option name="totallyTimeSpent" value="3054000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
@@ -252,13 +265,6 @@
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20190725033829_create_active_storage_tables.active_storage.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/log/development.log">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -286,13 +292,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/buckets/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/bucket.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -314,17 +313,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="60" selection-start-line="7" selection-start-column="60" selection-end-line="7" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/buckets_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
+        <state relative-caret-position="-123">
           <caret line="26" column="39" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+    <entry file="file://$PROJECT_DIR$/db/migrate/20190725033829_create_active_storage_tables.active_storage.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="60" lean-forward="true" selection-start-line="7" selection-start-column="60" selection-end-line="7" selection-end-column="60" />
+        <state relative-caret-position="150">
+          <caret line="10" column="28" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/buckets/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
         </state>
       </provider>
     </entry>

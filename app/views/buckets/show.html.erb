@@ -8,13 +8,19 @@
   <dd><%= @bucket.name %></dd>
 </dl>
 
-<h5>Files</h5>
+<div class="page-header">
+  <h3><%=t '.title', :default => model_class.model_name.human.titleize %> Images</h3>
+  <div class="pull-right">
+    <%= link_to "Upload Images", "/buckets/#{@bucket.id}/file_uploads/new", class: 'btn btn-primary'  %>
+  </div>
+</div>
 
 <ul>
   <% @bucket.files.each do |file| %>
-    <li><%= link_to file.filename, url_for(file) %></li>
+    <li><%= link_to file.filename, url_for(file) %> - <%= l file.created_at, format: :short %></li>
   <% end %>
 </ul>
+<br><br>
 
 <%= link_to t('.back', :default => t("helpers.links.back")),
               buckets_path, :class => 'btn btn-default'  %>
