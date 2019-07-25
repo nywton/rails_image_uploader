@@ -1,6 +1,6 @@
 <%= simple_form_for @bucket, :html => { :class => 'form-horizontal' } do |f| %>
   <%= f.input :name %>
-  <%= error_span(@bucket[:name]) %>
+  <%= f.file_field :files, multiple: true %><br /><br />
 
   <%= f.button :submit, :class => 'btn-primary' %>
   <%= link_to t('.cancel', :default => t("helpers.links.cancel")),
